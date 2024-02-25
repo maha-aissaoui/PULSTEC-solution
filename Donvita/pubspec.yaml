@@ -1,0 +1,422 @@
+name: Donvita
+description: An appli that 
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/image-5-bg.png
+    - assets/page-1/images/rectangle-12.png
+    - assets/page-1/images/frame.png
+    - assets/page-1/images/heroicons-solid-bars-3.png
+    - assets/page-1/images/frame-a1L.png
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/vector-stroke.png
+    - assets/page-1/images/heroicons-solid-home.png
+    - assets/page-1/images/auto-group-zusj.png
+    - assets/page-1/images/capture-dcran-2024-02-06-210622-1.png
+    - assets/page-1/images/auto-group-3aox.png
+    - assets/page-1/images/union.png
+    - assets/page-1/images/vector-Ste.png
+    - assets/page-1/images/frame-NF8.png
+    - assets/page-1/images/union-y8i.png
+    - assets/page-1/images/vector-C3Q.png
+    - assets/page-1/images/vector-XjC.png
+    - assets/page-1/images/union-5gA.png
+    - assets/page-1/images/rectangle-12-2zi.png
+    - assets/page-1/images/auto-group-mgzj.png
+    - assets/page-1/images/auto-group-agrt.png
+    - assets/page-1/images/frame-us4.png
+    - assets/page-1/images/vector-z7g.png
+    - assets/page-1/images/union-t3x.png
+    - assets/page-1/images/vector-4Mc.png
+    - assets/page-1/images/capture-dcran-2024-02-05-002907-1.png
+    - assets/page-1/images/rectangle-12-MPC.png
+    - assets/page-1/images/heroicons-outline-heart.png
+    - assets/page-1/images/capture-dcran-2024-02-05-002907-1-LJz.png
+    - assets/page-1/images/capture-dcran-2024-02-06-185203-1-bg.png
+    - assets/page-1/images/vector-oqp.png
+    - assets/page-1/images/vector-odg.png
+    - assets/page-1/images/heroicons-solid-magnifying-glass.png
+    - assets/page-1/images/capture-dcran-2024-02-05-002907-1-ytA.png
+    - assets/page-1/images/frame-TYS.png
+    - assets/page-1/images/capture-dcran-2024-02-06-185203-1-bg-Yfg.png
+    - assets/page-1/images/union-cq4.png
+    - assets/page-1/images/vector-cFx.png
+    - assets/page-1/images/heroicons-outline-heart-BcS.png
+    - assets/page-1/images/union-fWE.png
+    - assets/page-1/images/heroicons-solid-bars-3-jHg.png
+    - assets/page-1/images/vector-gyc.png
+    - assets/page-1/images/organization-1.png
+    - assets/page-1/images/vector-F18.png
+    - assets/page-1/images/frame-ccN.png
+    - assets/page-1/images/rectangle-12-faW.png
+    - assets/page-1/images/image-2.png
+    - assets/page-1/images/union-CAJ.png
+    - assets/page-1/images/auto-group-jyci.png
+    - assets/page-1/images/frame-Wgn.png
+    - assets/page-1/images/capture-dcran-2024-02-05-002907-1-GC6.png
+    - assets/page-1/images/heroicons-solid-home-hbU.png
+    - assets/page-1/images/image-4-bg.png
+    - assets/page-1/images/capture-dcran-2024-02-05-002907-1-ADU.png
+    - assets/page-1/images/rectangle-12-Ryx.png
+    - assets/page-1/images/heroicons-outline-heart-bYz.png
+    - assets/page-1/images/image-3.png
+    - assets/page-1/images/capture-dcran-2024-02-06-210622-2.png
+    - assets/page-1/images/frame-6na.png
+    - assets/page-1/images/capture-dcran-2024-02-06-210622-1-u1p.png
+    - assets/page-1/images/frame-qw4.png
+    - assets/page-1/images/rectangle-12-dFt.png
+    - assets/page-1/images/hospitalisation-1.png
+    - assets/page-1/images/capture-dcran-2024-02-05-002907-1-Uxe.png
+    - assets/page-1/images/capture-dcran-2024-02-06-185203-1-bg-Cut.png
+    - assets/page-1/images/rectangle-12-3fU.png
+    - assets/page-1/images/heroicons-solid-bars-3-djL.png
+    - assets/page-1/images/capture-dcran-2024-02-06-210622-2-i6A.png
+    - assets/page-1/images/heroicons-solid-home-3eE.png
+    - assets/page-1/images/capture-dcran-2024-02-05-002907-2.png
+    - assets/page-1/images/heroicons-solid-magnifying-glass-kDC.png
+    - assets/page-1/images/heroicons-outline-heart-VAn.png
+    - assets/page-1/images/vector-stroke-F9x.png
+    - assets/page-1/images/vector-stroke-dTL.png
+    - assets/page-1/images/auto-group-ubv8.png
+    - assets/page-1/images/heroicons-solid-home-e9U.png
+    - assets/page-1/images/heroicons-outline-heart-if8.png
+    - assets/page-1/images/heroicons-outline-heart-GwY.png
+    - assets/page-1/images/capture-dcran-2024-02-06-210622-1-DLz.png
+    - assets/page-1/images/vector-nAS.png
+    - assets/page-1/images/rectangle-12-o7U.png
+    - assets/page-1/images/auto-group-qvan.png
+    - assets/page-1/images/heroicons-solid-bars-3-Z8a.png
+    - assets/page-1/images/capture-dcran-2024-02-05-002907-1-A8N.png
+    - assets/page-1/images/rectangle-12-SLn.png
+    - assets/page-1/images/auto-group-zz5t.png
+    - assets/page-1/images/heroicons-outline-heart-VzW.png
+    - assets/page-1/images/vector-fZY.png
+    - assets/page-1/images/vector-stroke-kqt.png
+    - assets/page-1/images/capture-dcran-2024-02-06-210622-2-G7Q.png
+    - assets/page-1/images/auto-group-dnfx.png
+    - assets/page-1/images/auto-group-n5bc.png
+    - assets/page-1/images/frame-s7c.png
+    - assets/page-1/images/auto-group-ky4n.png
+    - assets/page-1/images/rectangle-14.png
+    - assets/page-1/images/vector-stroke-wVp.png
+    - assets/page-1/images/heroicons-solid-magnifying-glass-seN.png
+    - assets/page-1/images/vector-MfC.png
+    - assets/page-1/images/heroicons-outline-heart-742.png
+    - assets/page-1/images/union-uQz.png
+    - assets/page-1/images/image-2-kBx.png
+    - assets/page-1/images/vector-5Ne.png
+    - assets/page-1/images/auto-group-4nue.png
+    - assets/page-1/images/auto-group-onxg.png
+    - assets/page-1/images/capture-dcran-2024-02-05-002907-1-1WE.png
+    - assets/page-1/images/heroicons-outline-heart-9Ne.png
+    - assets/page-1/images/frame-Mcz.png
+    - assets/page-1/images/rectangle-12-tN2.png
+    - assets/page-1/images/vector-q2N.png
+    - assets/page-1/images/heroicons-outline-heart-5Bc.png
+    - assets/page-1/images/vector-stroke-CGE.png
+    - assets/page-1/images/auto-group-sthk.png
+    - assets/page-1/images/frame-G6J.png
+    - assets/page-1/images/frame-zHC.png
+    - assets/page-1/images/heroicons-solid-magnifying-glass-Jog.png
+    - assets/page-1/images/union-5mp.png
+    - assets/page-1/images/vector-m4J.png
+    - assets/page-1/images/heroicons-solid-bars-3-EtE.png
+    - assets/page-1/images/vector-stroke-G4E.png
+    - assets/page-1/images/heroicons-outline-heart-kFQ.png
+    - assets/page-1/images/auto-group-yha6.png
+    - assets/page-1/images/auto-group-wgg6.png
+    - assets/page-1/images/union-bnN.png
+    - assets/page-1/images/auto-group-ly6n.png
+    - assets/page-1/images/heroicons-outline-heart-fPk.png
+    - assets/page-1/images/auto-group-aaun.png
+    - assets/page-1/images/heroicons-outline-heart-uqp.png
+    - assets/page-1/images/frame-P8i.png
+    - assets/page-1/images/heroicons-solid-bars-3-sZg.png
+    - assets/page-1/images/vector-stroke-ZTk.png
+    - assets/page-1/images/heroicons-solid-magnifying-glass-qQa.png
+    - assets/page-1/images/heroicons-solid-magnifying-glass-2Uv.png
+    - assets/page-1/images/auto-group-mb3c.png
+    - assets/page-1/images/heroicons-outline-heart-FKk.png
+    - assets/page-1/images/heroicons-outline-heart-acv.png
+    - assets/page-1/images/heroicons-solid-bars-3-e1k.png
+    - assets/page-1/images/heroicons-outline-heart-Pzv.png
+    - assets/page-1/images/heroicons-solid-home-Dbt.png
+    - assets/page-1/images/heroicons-outline-heart-Zve.png
+    - assets/page-1/images/frame-GTg.png
+    - assets/page-1/images/auto-group-rzzy.png
+    - assets/page-1/images/vector-stroke-xAJ.png
+    - assets/page-1/images/heroicons-outline-heart-7nv.png
+    - assets/page-1/images/heroicons-outline-heart-PBL.png
+    - assets/page-1/images/auto-group-agcn.png
+    - assets/page-1/images/vector-stroke-mt2.png
+    - assets/page-1/images/heroicons-solid-magnifying-glass-B6W.png
+    - assets/page-1/images/heroicons-outline-heart-Sge.png
+    - assets/page-1/images/auto-group-8qpt.png
+    - assets/page-1/images/vector-xeJ.png
+    - assets/page-1/images/heroicons-outline-heart-HLJ.png
+    - assets/page-1/images/heroicons-solid-home-iFY.png
+    - assets/page-1/images/union-AAi.png
+    - assets/page-1/images/scanner-bg.png
+    - assets/page-1/images/heroicons-outline-heart-m9Q.png
+    - assets/page-1/images/union-eTQ.png
+    - assets/page-1/images/auto-group-qip8.png
+    - assets/page-1/images/image-2-SrS.png
+    - assets/page-1/images/vector-WcW.png
+    - assets/page-1/images/vector-stroke-K7L.png
+    - assets/page-1/images/auto-group-v1zw.png
+    - assets/page-1/images/auto-group-vvvc.png
+    - assets/page-1/images/heroicons-outline-heart-tCN.png
+    - assets/page-1/images/heroicons-solid-magnifying-glass-YFY.png
+    - assets/page-1/images/capture-dcran-2024-02-05-002907-1-TUa.png
+    - assets/page-1/images/heroicons-outline-heart-XfL.png
+    - assets/page-1/images/heroicons-solid-user.png
+    - assets/page-1/images/frame-txE.png
+    - assets/page-1/images/auto-group-ln6z.png
+    - assets/page-1/images/heroicons-solid-home-TkA.png
+    - assets/page-1/images/vector-Lcv.png
+    - assets/page-1/images/heroicons-outline-heart-jtS.png
+    - assets/page-1/images/heroicons-outline-heart-rMt.png
+    - assets/page-1/images/auto-group-cjce.png
+    - assets/page-1/images/union-PEN.png
+    - assets/page-1/images/ellipse-372.png
+    - assets/page-1/images/heroicons-solid-bars-3-4aJ.png
+    - assets/page-1/images/auto-group-giei.png
+    - assets/page-1/images/auto-group-f5ev.png
+    - assets/page-1/images/heroicons-solid-user-t2i.png
+    - assets/page-1/images/heroicons-solid-bars-3-kLW.png
+    - assets/page-1/images/vector-stroke-mYS.png
+    - assets/page-1/images/auto-group-d6yl.png
+    - assets/page-1/images/heroicons-solid-bars-3-QY6.png
+    - assets/page-1/images/heroicons-solid-home-c1t.png
+    - assets/page-1/images/union-nRU.png
+    - assets/page-1/images/heroicons-solid-home-FCa.png
+    - assets/page-1/images/union-L2z.png
+    - assets/page-1/images/ellipse-372-zCW.png
+    - assets/page-1/images/auto-group-nbxr.png
+    - assets/page-1/images/ellipse-372-efg.png
+    - assets/page-1/images/auto-group-ajzr.png
+    - assets/page-1/images/vector-NfY.png
+    - assets/page-1/images/heroicons-solid-magnifying-glass-jbk.png
+    - assets/page-1/images/union-XZY.png
+    - assets/page-1/images/capture-dcran-2024-02-05-002907-1-u8a.png
+    - assets/page-1/images/heroicons-solid-finger-print.png
+    - assets/page-1/images/heroicons-outline-heart-J46.png
+    - assets/page-1/images/scanner-bg-fMp.png
+    - assets/page-1/images/heroicons-solid-magnifying-glass-9US.png
+    - assets/page-1/images/heroicons-solid-finger-print-ght.png
+    - assets/page-1/images/vector-pUv.png
+    - assets/page-1/images/auto-group-8csg.png
+    - assets/page-1/images/heroicons-solid-magnifying-glass-U3Q.png
+    - assets/page-1/images/heroicons-solid-user-maW.png
+    - assets/page-1/images/capture-dcran-2024-02-05-002907-1-b9Y.png
+    - assets/page-1/images/auto-group-mgxy.png
+    - assets/page-1/images/auto-group-mple.png
+    - assets/page-1/images/auto-group-f3mq.png
+    - assets/page-1/images/auto-group-9vhx.png
+    - assets/page-1/images/heroicons-solid-bars-3-vEJ.png
+    - assets/page-1/images/union-486.png
+    - assets/page-1/images/heroicons-solid-finger-print-M98.png
+    - assets/page-1/images/heroicons-solid-home-UDk.png
+    - assets/page-1/images/auto-group-tda6.png
+    - assets/page-1/images/scanner-bg-7GS.png
+    - assets/page-1/images/heroicons-solid-finger-print-cri.png
+    - assets/page-1/images/vector-5Lr.png
+    - assets/page-1/images/image-2-5xz.png
+    - assets/page-1/images/auto-group-bmje.png
+    - assets/page-1/images/vector-gc6.png
+    - assets/page-1/images/union-6kE.png
+    - assets/page-1/images/heroicons-solid-bars-3-XH8.png
+    - assets/page-1/images/vector-stroke-vLW.png
+    - assets/page-1/images/union-pjG.png
+    - assets/page-1/images/capture-dcran-2024-02-05-002907-1-3Rx.png
+    - assets/page-1/images/auto-group-rczz.png
+    - assets/page-1/images/android-large-7-bg.png
+    - assets/page-1/images/vector-i1C.png
+    - assets/page-1/images/heroicons-solid-bars-3-97c.png
+    - assets/page-1/images/heroicons-solid-home-GRU.png
+    - assets/page-1/images/auto-group-qhzg.png
+    - assets/page-1/images/n-1.png
+    - assets/page-1/images/image-2-K5p.png
+    - assets/page-1/images/union-V3U.png
+    - assets/page-1/images/union-uYS.png
+    - assets/page-1/images/heroicons-solid-magnifying-glass-yJv.png
+    - assets/page-1/images/union-xq4.png
+    - assets/page-1/images/auto-group-gtks.png
+    - assets/page-1/images/capture-dcran-2024-02-05-002907-1-6VL.png
+    - assets/page-1/images/auto-group-bl86.png
+    - assets/page-1/images/vector-eHC.png
+    - assets/page-1/images/heroicons-solid-user-uGz.png
+    - assets/page-1/images/auto-group-deun.png
+    - assets/page-1/images/rectangle-67.png
+    - assets/page-1/images/auto-group-hr6a.png
+    - assets/page-1/images/rectangle-67-FBc.png
+    - assets/page-1/images/heroicons-solid-bars-3-qQi.png
+    - assets/page-1/images/heroicons-solid-magnifying-glass-LcN.png
+    - assets/page-1/images/android-large-7-bg-DZg.png
+    - assets/page-1/images/auto-group-eynn.png
+    - assets/page-1/images/scanner-bg-AhC.png
+    - assets/page-1/images/auto-group-9gpv.png
+    - assets/page-1/images/auto-group-zphq.png
+    - assets/page-1/images/heroicons-solid-user-BMY.png
+    - assets/page-1/images/image-2-PkS.png
+    - assets/page-1/images/image-2-1jt.png
+    - assets/page-1/images/image-2-hpz.png
+    - assets/page-1/images/ellipse-372-zxW.png
+    - assets/page-1/images/image-6.png
+    - assets/page-1/images/ellipse-372-75Q.png
+    - assets/page-1/images/heroicons-solid-magnifying-glass-2NS.png
+    - assets/page-1/images/union-m8z.png
+    - assets/page-1/images/scanner-bg-zqU.png
+    - assets/page-1/images/image-2-UJi.png
+    - assets/page-1/images/scanner-bg-Uei.png
+    - assets/page-1/images/image-2-Ccv.png
+    - assets/page-1/images/capture-dcran-2024-02-05-002907-1-RY2.png
+    - assets/page-1/images/capture-dcran-2024-02-05-002907-1-ubc.png
+    - assets/page-1/images/auto-group-hzfg.png
+    - assets/page-1/images/frame-yDY.png
+    - assets/page-1/images/auto-group-1bee.png
+    - assets/page-1/images/heroicons-solid-bars-3-8ni.png
+    - assets/page-1/images/auto-group-7cqu.png
+    - assets/page-1/images/heroicons-outline-heart-KJv.png
+    - assets/page-1/images/vector-LAJ.png
+    - assets/page-1/images/capture-dcran-2024-02-06-210622-2-sbU.png
+    - assets/page-1/images/heroicons-solid-bars-3-9rN.png
+    - assets/page-1/images/vector-stroke-HeE.png
+    - assets/page-1/images/heroicons-solid-home-Lfg.png
+    - assets/page-1/images/auto-group-pzxs.png
+    - assets/page-1/images/auto-group-tmdq.png
+    - assets/page-1/images/capture-dcran-2024-02-05-002907-1-2WA.png
+    - assets/page-1/images/heroicons-solid-user-WUW.png
+    - assets/page-1/images/heroicons-outline-heart-zgW.png
+    - assets/page-1/images/auto-group-12ue.png
+    - assets/page-1/images/union-PR8.png
+    - assets/page-1/images/heroicons-solid-magnifying-glass-uki.png
+    - assets/page-1/images/auto-group-f2ej.png
+    - assets/page-1/images/auto-group-wfka.png
+    - assets/page-1/images/capture-dcran-2024-02-06-210622-1-bg.png
+    - assets/page-1/images/heroicons-solid-finger-print-dhY.png
+    - assets/page-1/images/heroicons-solid-home-6Pp.png
+    - assets/page-1/images/vector-YcW.png
+    - assets/page-1/images/frame-EYN.png
+    - assets/page-1/images/heroicons-solid-magnifying-glass-Rfc.png
+    - assets/page-1/images/vector-83Q.png
+    - assets/page-1/images/heroicons-solid-home-GZC.png
+    - assets/page-1/images/auto-group-pden.png
+    - assets/page-1/images/auto-group-thxs.png
+    - assets/page-1/images/heroicons-solid-user-iLn.png
+    - assets/page-1/images/vector-bhG.png
+    - assets/page-1/images/union-Hka.png
+    - assets/page-1/images/heroicons-solid-bars-3-gUN.png
+    - assets/page-1/images/vector-stroke-f9Y.png
+    - assets/page-1/images/heroicons-solid-magnifying-glass-twp.png
+    - assets/page-1/images/frame-dAE.png
+    - assets/page-1/images/auto-group-ydqx.png
+    - assets/page-1/images/heroicons-solid-magnifying-glass-c1L.png
+    - assets/page-1/images/union-oxJ.png
+    - assets/page-1/images/heroicons-solid-home-XQz.png
+    - assets/page-1/images/heroicons-solid-magnifying-glass-Snz.png
+    - assets/page-1/images/vector-34S.png
+    - assets/page-1/images/heroicons-solid-users.png
+    - assets/page-1/images/heroicons-outline-heart-EXx.png
+    - assets/page-1/images/auto-group-kvea.png
+    - assets/page-1/images/auto-group-isni.png
+    - assets/page-1/images/union-6yk.png
+    - assets/page-1/images/auto-group-u6kg.png
+    - assets/page-1/images/heroicons-solid-user-qgS.png
+    - assets/page-1/images/heroicons-solid-bars-3-WyL.png
+    - assets/page-1/images/vector-YEa.png
+    - assets/page-1/images/heroicons-solid-bars-3-uTL.png
+    - assets/page-1/images/heroicons-solid-user-NJS.png
+    - assets/page-1/images/union-k4W.png
+    - assets/page-1/images/vector-LUv.png
+    - assets/page-1/images/heroicons-outline-heart-G2A.png
+    - assets/page-1/images/vector-stroke-bHx.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
